@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using MinecraftCommander.MinecraftWindowController;
 
 namespace MinecraftCommander.MinecraftWindowController.Test
 {
