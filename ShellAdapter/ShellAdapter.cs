@@ -1,12 +1,12 @@
 using System.Diagnostics;
 
 
-namespace CommandLineAdapter
+namespace ShellAdapter
 {
-	public static class CliAdapter
+	public class ShellWrapper: IShell
 	{
 
-		public static string Execute(string command, string[] args, bool printToConsole=false)
+		public string Execute(string command, string[] args, bool printToConsole=false)
 		{
 			Process p = new Process();
 			p.StartInfo.UseShellExecute = false;
@@ -20,7 +20,7 @@ namespace CommandLineAdapter
 			return output;
 		}
 
-		private static string GetStringFomStringArray(string[] args)
+		private string GetStringFomStringArray(string[] args)
 		{
 			string result = "";
 			foreach(string s in args)
