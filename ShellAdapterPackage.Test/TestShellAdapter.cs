@@ -2,9 +2,9 @@ using System;
 using System.Threading;
 using Xunit;
 
-using ShellAdapter;
+using ShellAdapterPackage;
 
-namespace ShellAdapter.Test
+namespace ShellAdapterPackage.Test
 {
 	public class TestShellWrapper
 	{
