@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShellAdapter\ShellAdapter.csproj" />
+    <ProjectReference Include="..\ShellAdapterPackage\ShellAdapterPackage.csproj" />
   </ItemGroup>
 
 </Project>
