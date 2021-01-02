@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.MinecraftWindowController", "MinecraftCommander.MinecraftWindowController\MinecraftCommander.MinecraftWindowController.csproj", "{8555A89E-5103-4EF8-BDA6-CD5C1C2B0008}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.MinecraftWindowControllerPackage", "MinecraftCommander.MinecraftWindowController\MinecraftCommander.MinecraftWindowControllerPackage.csproj", "{8555A89E-5103-4EF8-BDA6-CD5C1C2B0008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.MinecraftWindowController.Test", "MinecraftCommander.MinecraftWindowController.Test\MinecraftCommander.MinecraftWindowController.Test.csproj", "{3356B4D7-4028-4E23-9720-03F266144289}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.MinecraftWindowControllerPackage.Test", "MinecraftCommander.MinecraftWindowController.Test\MinecraftCommander.MinecraftWindowControllerPackage.Test.csproj", "{3356B4D7-4028-4E23-9720-03F266144289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.UI.Terminal", "MinecraftCommander.UI.Terminal\MinecraftCommander.UI.Terminal.csproj", "{D1CA2629-046A-4A20-8725-93D604094A13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.UI.TerminalPackage", "MinecraftCommander.UI.Terminal\MinecraftCommander.UI.TerminalPackage.csproj", "{D1CA2629-046A-4A20-8725-93D604094A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.UI.Terminal.Test", "MinecraftCommander.UI.Terminal.Test\MinecraftCommander.UI.Terminal.Test.csproj", "{6BB3AD84-522A-48FE-B134-7C035CB39564}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCommander.UI.TerminalPackage.Test", "MinecraftCommander.UI.Terminal.Test\MinecraftCommander.UI.Terminal.TestPackage.csproj", "{6BB3AD84-522A-48FE-B134-7C035CB39564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAdapter", "ShellAdapter\ShellAdapter.csproj", "{D6299F26-7A09-444D-95E7-FEF017860DAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAdapterPackage", "ShellAdapter\ShellAdapterPackage.csproj", "{D6299F26-7A09-444D-95E7-FEF017860DAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAdapter.Test", "ShellAdapter.Test\ShellAdapter.Test.csproj", "{A3838A21-C56B-4AD7-B55F-E73AB67A592F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAdapterPackage.Test", "ShellAdapter.Test\ShellAdapterPackage.Test.csproj", "{A3838A21-C56B-4AD7-B55F-E73AB67A592F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCommander", "WindowCommander\WindowCommander.csproj", "{9E743803-3169-4B4F-8465-28244CF14941}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCommanderPackage", "WindowCommander\WindowCommanderPackage.csproj", "{9E743803-3169-4B4F-8465-28244CF14941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCommander.Test", "WindowCommander.Test\WindowCommander.Test.csproj", "{F33F76AD-162D-4A78-B96A-47140949F3D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCommanderPackage.Test", "WindowCommander.Test\WindowCommanderPackage.Test.csproj", "{F33F76AD-162D-4A78-B96A-47140949F3D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

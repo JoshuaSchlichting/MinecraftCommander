@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace MinecraftCommander.MinecraftWindowController.Test
+namespace WindowCommanderPackage.Test
 {
     public class UnitTest1
     {

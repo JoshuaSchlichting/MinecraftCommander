@@ -1,6 +1,6 @@
 using System;
 
-namespace ShellAdapter
+namespace ShellAdapterPackage
 {
 	public interface IShell
 	{
