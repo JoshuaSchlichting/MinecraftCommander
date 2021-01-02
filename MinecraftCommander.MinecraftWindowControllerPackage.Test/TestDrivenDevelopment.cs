@@ -1,15 +1,13 @@
 using System;
 using Xunit;
-using MinecraftCommander.MinecraftWindowController;
 
-namespace MinecraftCommander.MinecraftWindowController.Test
+namespace MinecraftCommander.MinecraftWindowControllerPackage.Test
 {
     public class TestDrivenDevelopment
     {
         [Fact]
         public void InstantiateMinecraftWindowController()
         {
-            MinecraftWindowController controller = new MinecraftWindowController();
 
             
         }

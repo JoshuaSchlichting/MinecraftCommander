@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MinecraftCommander.UI.Terminal
+namespace MinecraftCommander.UI.TerminalPackage
 {
     class Program
     {

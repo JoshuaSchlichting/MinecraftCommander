@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace WindowCommander.Test
+namespace WindowCommanderPackage.Test
 {
     public class UnitTest1
     {
