@@ -2,7 +2,8 @@
 
 namespace MinecraftCommander.MinecraftWindowController
 {
-    public class Class1
+    public class MinecraftWindowController
     {
+        
     }
 }
