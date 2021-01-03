@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using MinecraftCommander.MinecraftWindowControllerPackage;
 
 namespace MinecraftCommander.MinecraftWindowControllerPackage.Test
 {
@@ -8,8 +9,7 @@ namespace MinecraftCommander.MinecraftWindowControllerPackage.Test
         [Fact]
         public void InstantiateMinecraftWindowController()
         {
-
-            
+            MinecraftWindowController controller = new MinecraftWindowController();
         }
     }
 }
