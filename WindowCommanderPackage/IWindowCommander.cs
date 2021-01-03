@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace WindowCommanderPackage
 {
 	public interface IWindowCommander
