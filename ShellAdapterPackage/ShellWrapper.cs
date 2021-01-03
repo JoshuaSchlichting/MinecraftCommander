@@ -1,14 +1,12 @@
-using System;
 using System.Diagnostics;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace ShellAdapterPackage
 {
 	public class ShellWrapper: IShell
 	{
 
-		public string Execute(string command, string[] args)
+		public string Execute(string command, List<string> args)
 		{
 			Process p = new Process();
 			p.StartInfo.UseShellExecute = false;
@@ -20,7 +18,7 @@ namespace ShellAdapterPackage
 			return output;
 		}
 
-		private string GetStringFomStringArray(string[] args)
+		private string GetStringFomStringArray(List<string> args)
 		{
 			string result = "";
 			foreach(string s in args)

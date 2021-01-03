@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using Xunit;
 
@@ -15,7 +16,7 @@ namespace ShellAdapterPackage.Test
 			CancellationToken cancelToken = new CancellationToken();
 			string responseString = shellAdapter.Execute(
 				command: "echo",
-				args: new string[]{"hello world"}
+				args: new List<string>{"hello world"}
 			);
 			Assert.Equal("hello world\n", responseString);
 
